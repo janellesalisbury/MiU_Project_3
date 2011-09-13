@@ -3,7 +3,8 @@
 <!--1109 -->
 <!-- Project 2 -->
 
-<!DOCTYPE html>
+
+<doctype HTML>
 <html lang = "en">
     <head>
       <meta charset = "UTF-8">
@@ -21,25 +22,22 @@
       <script src="js/libs/modernizr.custom.min.js"></script>
     </head>
     <body>
-        <div data-role = "page">
+        <div data-role = "page" id = "home">
             <div data-role = "header" data-position ="fixed">
                 <h1>Car Parts I Need</h1>
             </div>
         <img src ="Image/mjauto2.png"> 
+        <img src ="Image/car2.png"
         <td>Search:<input type = "text" name = "search" size = "50"> <input type = "submit" value = "Search"></td><br>
         <div data-role = "content">
                 <p>Add parts need for your vehicle and keep a detailed listing.</p>
+                <p><a href = "#brakes" data-theme = "b" data-role = "button" data-icon = "arrow-r" data-iconpos = "right">Brake Assembly</a> </p>
+                <p><a href = "#engine" data-theme = "b"data-role = "button" data-icon = "arrow-r" data-iconpos = "right"> Engine Assembly</a></p>
+                <p><a href = "#body" data-theme = "b" data-role = "button" data-icon = "arrow-r" data-iconpos = "right">Body Assembly</a></p>
+                <p><a href = "#lighting" data-theme = "b" data-role = "button" data-icon = "arrow-r" data-iconpos = "right">Lighting Assembly</a></p>
+                <p><a href = "#interior" data-theme = "b" data-role = "button" data-icon = "arrow-r" data-iconpos = "right">Interior Assembly</a></p>
         </div>
-        <div>
-        <dt><a class = "browse" href = "additem.html"><input class = "cta" input type = "button" value = "Brakes" data-role = "button" data-icon = "arrow-r" data-iconpos = "right"</a></dt>
-        <dt><a class = "browse" href = "additem.html"><input class = "cta" input type = "button" value = "Engine"data-role = "button" data-icon = "arrow-r" data-iconpos = "right"</a></dt>
-        <dt><a class = "browse" href = "additem.html"><input class = "cta" input type = "button" value = "Body"data-role = "button" data-icon = "arrow-r" data-iconpos = "right"</a></dt>
-        <dt><a class = "browse" href = "additem.html"><input class = "cta" input type = "button" value = "Lighting"data-role = "button" data-icon = "arrow-r" data-iconpos = "right"</a></dt>
-        <dt><a class = "browse" href = "additem.html"><input class = "cta" input type = "button" value = "Interior"data-role = "button" data-icon = "arrow-r" data-iconpos = "right"</a></dt>
-
-        </div>  
-        
-        
+   </div>
            
    <div data-role ="page" id = "brakes" data-add-back-btn = "true">
        <div data-role = "header" data-position = "fixed">
@@ -67,7 +65,8 @@
                    <p>Find Brands Here</p>
                </div>
          </div>
- </div>              
+    </div> 
+</div>             
   
    <div data-role ="page" id = "engine" data-add-back-btn = "true">
        <div data-role = "header" data-position = "fixed">
@@ -94,7 +93,9 @@
                    <h3>Crank Seal</h3>
                    <p>Find Brands Here</p>
                </div>
-       </div>
+         </div>
+   </div>
+</div>
        
   <div data-role ="page" id = "body" data-add-back-btn = "true">
        <div data-role = "header" data-position = "fixed">
@@ -121,6 +122,9 @@
                    <h3>Bumpers</h3>
                    <p>Find Brands Here</p>
                </div>
+         </div>
+     </div>
+ </div>
                
   <div data-role ="page" id = "lighthing" data-add-back-btn = "true">
        <div data-role = "header" data-position = "fixed">
@@ -147,6 +151,9 @@
                    <h3>Signal Lights</h3>
                    <p>Find Brands Here</p>
                </div>
+         </div>
+    </div>
+</div>
                
   <div data-role ="page" id = "interior" data-add-back-btn = "true">
        <div data-role = "header" data-position = "fixed">
@@ -174,27 +181,17 @@
                    <p>Find Brands Here</p>
                </div>
          </div>
+    </div>
+</div>
       <div data-role = "footer" data-position = "fixed">
           <h4>Footer</h4>
       </div>
-    
+  </div>
+
          
-     
-        
-       
-        <div data-role = "footer" data-position = "fixed">
-                <h4>Footer</h4>
-        
-        </div>
-    </div>
-    
-    
-    
-    
-    
-    
      <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
      <script src="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.js"></script>
      <script type = "text/javascript" src = "js/main.js"></script>
+     <script type = "text/javascript" src = "js/JSON.js"></script>
     </body>      
 </html>
