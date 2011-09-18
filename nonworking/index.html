@@ -187,6 +187,94 @@
           <h4>Footer</h4>
       </div>
   </div>
+  
+  <div data-role ="page" id ="recordparts" data-add-back-btn = "true">
+            <div data-role ="header" data-position ="fixed">
+                 <h1>Record Parts</h1>
+            </div>
+            <div data-role = "content">
+               <form action = "" method = "post" id = "recordpartsform">
+                   <div data-role = "fieldcontain">
+                      <label for  = "partslocation">Location:</label>
+                          <input type = "text" name = "partslocation" id = "partslocation" />
+               
+           </div>
+           
+                   <div data-role = "fieldcontain">
+                      <label for = "partsname">Part Name:</label>
+                         <input type = "text" name = "partname" id = "partname"/>
+           </div>
+                   <div data-role = "fieldcontain">
+                      <label for = "oldpartproblems">Problems:</label>
+                         <textarea></textarea>
+           </div>
+                   <div data-role = "fieldcontain">
+                      <label for = "purchased">Parts Purchased:</label>
+                      <select data role = "slider">
+                         <option value = "yes">Yes</option>
+                         <option value = "no">No</option>
+                      </select>
+           </div>
+           
+           
+           
+           
+           
+                   <div data-role = "fieldcontain">
+                      <fieldset data-role = "controlgroup">
+                        <legend>Part Choice:</legend>
+                        <input type = "radio" value = "new" name = "part-choice" id = "part-choice-1"/>
+                        <label for = "part-choice-1">New</label>
+                        <input type = "radio" value = "used" name = "part-choice" id = "part-choice-2"/>
+                        <label for = "part-choice-2">Used</label>
+                       
+                      </fieldset>
+           </div>
+                   <div data-role = "fieldcontain">
+                      <fieldset data-role = "controlgroup">
+                        <legend>Part Purchased?</legend>  
+                        <input type = "checkbox" value = "yes" name = "purchasedchoice" id = "purchased-choice-1"/>
+                        <label for = "purchased-choice-1">Yes</label>
+                        <input type = "checkbox" value = "no" name = "purchasedchoice" id = "purchased-choice-2"/>
+                        <label for = "purchased-choice-2">No</label>
+                        
+                      </fieldset>
+           </div>
+                   <div data-role = "fieldcontain">
+                      <label for = "parts-shipping">Shipping:</label>
+                      <select name = "parts-shipping" id = "parts-shipping">
+                      <option data-placeholder = "true">Please Select One:</option>
+                      <optgroup label = "FedEx">
+                        <option value = "overnight"></option>
+                        <option value = "regular"></option>
+                        <option value = "2-day"></option>
+                       
+                      </optgroup>
+                      <optgroup value = "USPS">
+                        <option value = "overnight"></option>
+                        <option value = "regular"></option>
+                        <option value = "2-day"></option>
+                      
+                      </optgroup>
+                      </select>
+                      
+          </div>
+                  <input type = "reset" value = "Reset" data theme = "a"/>
+                  <input type = "sumbit" value = "Log Parts" data theme = "b"/>
+                     
+                   
+          </div>
+          </form>
+          </div>
+     </div>
+</div>
+
+        <div data-role = "footer" data-position = "fixed" data-theme = "b">
+                <h4>Footer</h4>
+        
+        </div>
+    </div>
+
 
          
      <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
