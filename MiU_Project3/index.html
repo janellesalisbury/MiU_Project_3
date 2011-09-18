@@ -359,22 +359,43 @@
                       </fieldset>
            </div>
                    <div data-role = "fieldcontain">
-                   
-                   
-                   
-                   
-                   
-                   </div>
-                      
-                      
+                      <fieldset data-role = "controlgroup">
+                        <legend>Part Purchased?</legend>  
+                        <input type = "checkbox" value = "yes" name = "purchasedchoice" id = "purchased-choice-1"/>
+                        <label for = "purchased-choice-1">Yes</label>
+                        <input type = "checkbox" value = "no" name = "purchasedchoice" id = "purchased-choice-2"/>
+                        <label for = "purchased-choice-2">No</label>
+                        
                       </fieldset>
+           </div>
+                   <div data-role = "fieldcontain">
+                      <label for = "parts-shipping">Shipping:</label>
+                      <select name = "parts-shipping" id = "parts-shipping">
+                      <option data-placeholder = "true">Please Select One:</option>
+                      <optgroup label = "FedEx">
+                        <option value = "overnight"></option>
+                        <option value = "regular"></option>
+                        <option value = "2-day"></option>
+                       
+                      </optgroup>
+                      <optgroup value = "USPS">
+                        <option value = "overnight"></option>
+                        <option value = "regular"></option>
+                        <option value = "2-day"></option>
+                      
+                      </optgroup>
+                      </select>
+                      
+          </div>
+                  <input type = "reset" value = "Reset" data theme = "a"/>
+                  <input type = "sumbit" value = "Log Parts" data theme = "b"/>
+                     
                    
-                   
-                   </div>
-                   
-                   
-           
-           </form>
+          </div>
+          </form>
+          </div>
+     </div>
+</div>
 
         <div data-role = "footer" data-position = "fixed" data-theme = "b">
                 <h4>Footer</h4>
