@@ -69,4 +69,12 @@ width: 400 px;
 text-align: center;
 }
 
+
+label.error{
+display:block;
+margin: 10px 0;
+color: #cc0000
+}
+
+
 /* Saved here, completed CSS */
