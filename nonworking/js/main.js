@@ -127,9 +127,32 @@ function editItem(id){
 }
 
 
+   
+var paresePartsForm = function (data){};
+console.log (data)
+rberrorslink = $('#rberrorslink')
+};
+
 $(document).ready(funtion(){
    $('#recordpartsform');
-   rbform.validate();
+   rbform.validate({
+    invalidHandler:function(form, validation){};
+    rberrorslink.click();
+    console.log(validation):
+    submitHandler : function (){};
+    var data = rbform.serializeArray();
+    parsePartsForm(data);
+   
+   );
+   
+   
+   
+
+
+
+});
+
+
 
 
 
