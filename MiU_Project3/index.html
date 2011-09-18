@@ -322,19 +322,30 @@
                 <h4>Footer</h4>
             </div>            
         </div>
-  </div>
-       <div data-role = "page" id = "recordparts" back-btn = "true">
-           <div data-role = "header" data-position = "fixed">
-              <h1>Record Parts</h1>
-           </div>
-           
-           <div data-role = "content">
+   </div>
+   
+       <div data-role ="page" id ="recordparts" data-add-back-btn = "true">
+            <div data-role ="header" data-position ="fixed">
+                 <h1>Record Parts</h1>
+            </div>
+            <div data-role = "content">
                <form action = "" method = "post" id = "recordpartsform">
                    <div data-role = "fieldcontain">
                    <label for  = "partslocation">Location:</label>
                    <input type = "text" name = "partslocation" id = "partslocation" />
+               
            </div>
            
+                   <div data-role = "fieldcontain">
+                   <label for = "partsname">Part Name:</label>
+                   <input type = "text" name = "partname" id = "partname"/>
+           </div>
+                   <div data-role = "fieldcontain">
+                   <label for = "oldpartproblems">Problems:</label>
+                   <textarea></textarea>
+                   </div>
+           
+           </form>
 
         <div data-role = "footer" data-position = "fixed" data-theme = "b">
                 <h4>Footer</h4>
