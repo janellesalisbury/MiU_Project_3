@@ -127,3 +127,15 @@ function editItem(id){
 }
 
 
+$(document).ready(funtion(){
+   $('#recordpartsform');
+   rbform.validate();
+
+
+
+});
+
+
+
+
+
