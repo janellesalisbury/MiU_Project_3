@@ -23,7 +23,7 @@
     <body>
         <div data-role = "page" id = "home">
             <div data-role = "header" data-position ="fixed">
-                <h1>Car Parts I Need</h1>
+                <h1>Car Parts I Need </h1>
             </div>
             <div align=center>
                 <img src ="Image/mjauto2.png"> 
@@ -37,12 +37,13 @@
                 <p><a href = "#body" data-theme = "b" data-role = "button" data-icon = "arrow-r" data-iconpos = "right">Body Assembly</a></p>
                 <p><a href = "#lighting" data-theme = "b" data-role = "button" data-icon = "arrow-r" data-iconpos = "right">Lighting Assembly</a></p>
                 <p><a href = "#interior" data-theme = "b" data-role = "button" data-icon = "arrow-r" data-iconpos = "right">Interior Assembly</a></p>
+                <p><a href = "#recordparts" data-theme = "b" data-role = "button" data-icon = "arrow-r" data-iconpos = "right">Record Parts</a></p>
             </div>
             <div data-role="footer" data-position="fixed" data-theme="b">
-                <h4>Footer</h4>
+                <h4>Footer</h>
             </div>
         </div>
-           
+         
         <div data-role ="page" id ="brakes" data-add-back-btn = "true">
             <div data-role ="header" data-position ="fixed">
                  <h1>Brake Assembly</h1>
@@ -323,8 +324,8 @@
             </div>            
         </div>
    </div>
-   
-       <div data-role ="page" id ="recordparts" data-add-back-btn = "true">
+
+       <div data-role ="page" id ="recordparts" data-add-back-btn = "false">
             <div data-role ="header" data-position ="fixed">
             <input type = "button" value = "Log Parts" id = "Log Parts">
                  <h1>Record Parts</h1>
@@ -377,16 +378,16 @@
                         <option value = "overnight"></option>
                         <option value = "regular"></option>
                         <option value = "2-day"></option>
-                       
                       </optgroup>
+                   </div>
+                   <div data-role = "fieldcontain"> 
                       <optgroup value = "USPS">
                         <option value = "overnight"></option>
                         <option value = "regular"></option>
                         <option value = "2-day"></option>
-                      
                       </optgroup>
                       </select>
-                      
+                  </div>    
           </div>
                   <input type = "reset" value = "Reset" data theme = "a"/>
                   <input type = "sumbit" value = "Log Parts" data theme = "b"/>
