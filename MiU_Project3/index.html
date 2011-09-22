@@ -325,9 +325,9 @@
         </div>
    </div>
 
-       <div data-role ="page" id ="recordparts" data-add-back-btn = "false">
+       <div data-role ="page" id ="recordparts" data-add-back-btn = "true">
             <div data-role ="header" data-position ="fixed">
-            <input type = "button" value = "Log Parts" id = "Log Parts">
+         
                  <h1>Record Parts</h1>
             </div>
             <div data-role = "content">
@@ -375,22 +375,22 @@
                       <select name = "parts-shipping" id = "parts-shipping" class = "required">
                       <option data-placeholder = "true">Please Select One:</option>
                       <optgroup label = "FedEx">
-                        <option value = "overnight"></option>
-                        <option value = "regular"></option>
-                        <option value = "2-day"></option>
+                        <option value = "overnight">Overnight</option>
+                        <option value = "regular">Regular</option>
+                        <option value = "2-day">2-Day</option>
                       </optgroup>
-                   </div>
-                   <div data-role = "fieldcontain"> 
-                      <optgroup value = "USPS">
-                        <option value = "overnight"></option>
-                        <option value = "regular"></option>
-                        <option value = "2-day"></option>
+                   
+                   
+                      <optgroup label = "USPS">
+                        <option value = "overnight">Overnight</option>
+                        <option value = "regular">Regular</option>
+                        <option value = "2-day">2-Day</option>
                       </optgroup>
                       </select>
                   </div>    
           </div>
-                  <input type = "reset" value = "Reset" data theme = "a"/>
-                  <input type = "sumbit" value = "Log Parts" data theme = "b"/>
+                  <input type = "button" value = "Reset" data theme = "a"/>
+                  <input type = "button" value = "Log Parts" data theme = "b"/>
                      
                    
           </div>
